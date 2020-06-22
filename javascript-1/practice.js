@@ -2,31 +2,30 @@
 
 // Create a variable called 'myName' with a value that is your name. 
 
-// Code here
+let myName = "emad";
 
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' with a value that is your favorite number. 
 
-//Code here
+let faveNum = 22;
 
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called 'lovesCode' and assign it a value of true.
 
-//Code here
+let lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
 // Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. The function should return the sum of the two parameters.
 
-//Code here
-
+function sum(num1,num2){
+	return num1 + num2
+}
 //////////////////PROBLEM 5////////////////////
 
 // Create a function called 'lovesCodeChecker' that takes in a single parameter called 'x'. Check to see if 'x' is equal to true. If it is, return a true boolean. If 'x' does not equal true, return a false boolean.  
-
-//Code here
 
 //////////////////PROBLEM 6////////////////////
 
@@ -64,7 +63,16 @@ const numbers = [1, 2, 3, 4, 5]
 
 // Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
 
-//Code Here
+var me ={
+	Fristname:"emad",
+	state:"texas",
+	age:22,
+	greeter: function(){
+	return 'Hello! My name is "${me.Fristname} "
+	and I live in  (me.state)'
+
+	}
+}
 
 //////////////////PROBLEM 12////////////////////
 
